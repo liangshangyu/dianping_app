@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-app.listen(3000);
+app.listen(6001);
 app.use(express.static('../dist'));
 app.get('/',(req,res)=>{
     res.sendFile('index.html')
